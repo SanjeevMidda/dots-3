@@ -1,0 +1,59 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100dvh;
+  background-color: rgb(212, 212, 212);
+}
+
+.dotContainer {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: repeat(35, 1fr);
+  gap: 0px;
+  width: 80dvw;
+  height: 280dvh;
+  justify-items: center;
+  align-items: center;
+  /* border: 1px solid black; */
+  margin-top: 40px;
+}
+
+.dot {
+  filter: brightness(80%);
+}
+h1 {
+  font-size: 200px;
+  position: fixed;
+  top: 650px;
+  left: 160px;
+  /* color: white; */
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(212, 212, 212);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(212, 212, 212);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(212, 212, 212);
+}
