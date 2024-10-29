@@ -16,7 +16,7 @@
 
 .dotContainer {
   display: grid;
-  grid-template-columns: repeat(9, 1fr);
+  grid-template-columns: repeat(19, 1fr);
   grid-template-rows: repeat(35, 1fr);
   gap: 0px;
   width: 80dvw;
